@@ -10,10 +10,6 @@ const App = () => {
   return (
     <>
     <Header/>
-    <Home/>
-    <Feature/>
-    <Reviews/>
-    <Login/>
     <Footer/>
     </>
   )

@@ -6,14 +6,14 @@ import person3 from "../Images/person3.jpg";
 const Reviews = () => {
   return (
     <div className='bg-[#0B1020] text-white'>
-       <section className="p-4">
+       <section className="p-4 pt-25">
         <h4 className="text-pink-400 text-center text-2xl">TESTIMONIALS</h4>
         <h2 className="text-6xl font-bold text-center mt-10">Loved By Thousands </h2>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-10 p-10">
 
             <div
-                className="bg-[#111827] p-3 rounded-2xl border-2 border-transparent hover:border-yellow-500 hover:shadow-[0_15px_35px_rgba(254,240,138,0.4)] hover:-translate-y-2   transition-all  duration-300 lasclassName-in-out p-10">
+                className="bg-[#111827] p-3 rounded-2xl border-2 border-transparent hover:border-yellow-500 hover:shadow-[0_15px_35px_rgba(254,240,138,0.4)] hover:-translate-y-2   transition-all  duration-300 lasclassName-in-out p-10 pt-22">
                 <div className="mt-3">⭐⭐⭐⭐⭐</div>
                 <div className="mt-6">
                     <p className="text-gray-400">

@@ -3,10 +3,10 @@ import gridPattern from "../Images/grid-pattern.png";
 
 const Login = () => {
   return (
-    <div>
+    <div >
         <section
       style={{ backgroundImage: `url(${gridPattern})` }}
-      className="relative min-h-screen overflow-hidden bg-[#0B1020] bg-cover bg-center flex items-center justify-center px-6"
+      className="relative min-h-screen overflow-hidden bg-[#0B1020] bg-cover bg-center flex items-center justify-center px-6 pt-25 p-25"
     >
       <div className="absolute w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[150px] top-10 left-1/2 -translate-x-1/2"></div>
 

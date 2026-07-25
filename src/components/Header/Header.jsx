@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,33 +17,44 @@ const Header = () => {
             <div className="flex justify-center items-center gap-3 ">
               <ul className="hidden md:flex justify-center items-center gap-8 mr-8">
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-blue-500 transition-all duration-300 ease-in-out"
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `${isActive ? "border-b-2 border-blue-500" : "text-white"} hover:text-blue-500 transition-all duration-300 ease-in-out`
+                    }
                   >
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-blue-500 transition-all duration-300 ease-in-out"
+                  <NavLink
+                    to="/feature"
+                    className={({ isActive }) =>
+                      `${isActive ? "border-b-2 border-blue-500" : "text-white"} hover:text-blue-500 transition-all duration-300 ease-in-out`
+                    }
                   >
-                    Features
-                  </a>
+                    Feature
+                  </NavLink>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-blue-500 transition-all duration-300 ease-in-out"
+                  <NavLink
+                    to="/reviews"
+                    className={({ isActive }) =>
+                      `${isActive ? "border-b-2 border-blue-500" : "text-white"} hover:text-blue-500 transition-all duration-300 ease-in-out`
+                    }
                   >
                     Reviews
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
 
               <button className=" px-6 py-3 hidden md:flex rounded-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-400 hover:to-purple-500 text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(99,102,241,0.7)]">
-                Login
+                <NavLink
+                  to="/login"
+                  className="hover:text-blue-500 transition-all duration-300 ease-in-out"
+                >
+                  Login
+                </NavLink>
               </button>
             </div>
           </nav>

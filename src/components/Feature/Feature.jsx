@@ -4,7 +4,7 @@ import employee from "../Images/employeeImage.png";
 const Feature = () => {
   return (
     <div className='bg-[#0B1020] text-white'>
-        <section  className='p-4'>
+        <section  className='p-4 pt-22'>
         <div className="grid grid-cols-1 xl:grid-cols-3 auto-rows-[150px] gap-6 p-3">
 
             <div
